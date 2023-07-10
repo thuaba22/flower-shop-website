@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+/* this is the intro section */
 .shop-intro {
   height: 100vh;
   background: rgba(229, 84, 115, 0.1);
@@ -18,7 +19,6 @@
   font-size: 80px;
   font-style: normal;
   font-weight: 800;
-  line-height: normal;
 }
 .intro-des {
   color: rgba(39, 39, 39, 0.6);
@@ -41,4 +41,99 @@
 .shop-intro-img {
   width: 600px;
   height: 750px;
+}
+/* features item section */
+.features-flower-container {
+}
+.feature-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 150px;
+  margin-bottom: 24px;
+}
+.feature-des {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.all-items-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
+.box-item1 {
+  border-radius: 300px 300px 0px 0px;
+  background-color: rgba(167, 33, 98, 0.15);
+  width: 464px;
+  height: 538px;
+  text-align: center;
+}
+.box-item-img1 {
+  width: 310px;
+  height: 428px;
+  margin: 110px 70px 0;
+}
+.box-item2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  width: 464px;
+  height: 538px;
+  text-align: center;
+}
+.box-item-img2 {
+  width: 370px;
+  height: 370px;
+  margin: 117px 47px 51px;
+}
+.box-item3 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  text-align: center;
+}
+.box-item-img3 {
+  width: 314px;
+  height: 471px;
+  margin: 67px 75px 0;
+}
+.flower-name {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+/* Delivery system section */
+.delivery-container {
+  display: flex;
+  justify-content:center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin: 150px 240px;
+  height: 320px;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  
+}
+.delivery-des {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  margin-top: 13px;
+  
+
 }

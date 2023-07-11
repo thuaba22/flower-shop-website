@@ -15,14 +15,14 @@
 }
 .intro-title {
   color: #272727;
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
   font-size: 80px;
   font-style: normal;
   font-weight: 800;
 }
 .intro-des {
   color: rgba(39, 39, 39, 0.6);
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -43,12 +43,11 @@
   height: 750px;
 }
 /* features item section */
-.features-flower-container {
-}
+
 .feature-title {
   color: #272727;
   text-align: center;
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
   font-size: 40px;
   font-weight: bolder;
   margin-top: 150px;
@@ -57,7 +56,7 @@
 .feature-des {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -67,7 +66,6 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  
 }
 .box-item1 {
   border-radius: 300px 300px 0px 0px;
@@ -108,7 +106,7 @@
 .flower-name {
   color: #272727;
   text-align: center;
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -117,7 +115,7 @@
 /* Delivery system section */
 .delivery-container {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
   margin: 150px 240px;
@@ -125,15 +123,50 @@
   align-items: center;
   text-align: center;
   gap: 50px;
-  
 }
 .delivery-des {
   color: rgba(39, 39, 39, 0.8);
   text-align: center;
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
   font-size: 24px;
   font-style: normal;
   margin-top: 13px;
-  
+}
+/* hot deal section */
+.hot-deal-container {
+  width: 1922px;
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hot-deal-info {
+  text-align: center;
+}
+.hot-deal-title {
+  color: #272727;
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: 800px;
+}
+.off-part{
+  color: #E55473;
+}
+.hot-deal-des{
+  color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: "Lato", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-top: 24px;
+padding-bottom: 24px ;
+}
+.hot-deal-img{
+  width: 318px;
+height: 420px;
 
 }
